@@ -20,7 +20,7 @@ public interface ICustomReadFiles {
 	 * @return
 	 * @throws FileNotFoundException
 	 */
-	ArrayList<Jugador> jugadores() throws FileNotFoundException;
+	ArrayList <Jugador> jugadores() throws FileNotFoundException;
 }
 
 

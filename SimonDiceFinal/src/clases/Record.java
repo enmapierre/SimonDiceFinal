@@ -93,7 +93,7 @@ public class Record {
 	 */
 	public void cargarRanking() throws IOException {
 		CustomReadFile read = new CustomReadFile("./src/data/top.txt");
-		ArrayList<Jugador> jugadores = read.jugadores();
+		ArrayList <Jugador> jugadores = read.jugadores();
 		int i = 0;
 		int size = jugadores.size();
 		while (i < size && i < this.MAX_JUGADORES) {

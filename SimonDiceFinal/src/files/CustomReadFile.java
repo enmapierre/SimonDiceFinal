@@ -16,7 +16,7 @@ public class CustomReadFile extends FileReader implements ICustomReadFiles {
 	/**
 	 * Constructora que inicializa el scanner y cargar el fichero
 	 * 
-	 * @param _file
+	 * @param file
 	 * @throws FileNotFoundException
 	 */
 	public CustomReadFile(String file) throws FileNotFoundException {
@@ -36,8 +36,8 @@ public class CustomReadFile extends FileReader implements ICustomReadFiles {
 	/**
 	 * reescribe el metodo de la interfaz
 	 */
-	@Override
-	public ArrayList<Jugador> jugadores() throws FileNotFoundException {
+	
+	public ArrayList <Jugador> jugadores() throws FileNotFoundException {
 		ArrayList<Jugador> jugadores = new ArrayList<Jugador>();
 		while (this.sc.hasNextLine()) {
 			try {

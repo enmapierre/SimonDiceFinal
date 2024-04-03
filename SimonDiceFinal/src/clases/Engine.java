@@ -10,17 +10,17 @@ public class Engine {
 	Scanner sc = new Scanner(System.in);
 
 	/**
-	 * enum de tipo tColores
+	 * de tipo tColores
 	 */
-	public enum tColores {
-		ROJO, VERDE, AZUL, DORADO, BLANCO, MARRON, NARANJA
+	public enum tColores{
+		ROJO , VERDE , AZUL , DORADO , BLANCO , MARRON , NARANJA
 	}
 
 	/**
 	 * enum tModo para usar el modo facil o dificil
 	 */
-	public enum tModo {
-		FACIL, DIFICIL
+	public enum tModo{
+		FACIL , DIFICIL
 	}
 
 	public int puntuacion = 0;
